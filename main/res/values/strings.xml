@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">youtubeclone</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_view_account">Account</string>
+
+    <string name="title_home">ホーム</string>
+    <string name="title_explore">探索</string>
+    <string name="title_subscription">登録チャンネル</string>
+    <string name="title_notifications">通知</string>
+    <string name="title_library">ライブラリ</string>
+
+    <string name="title_search">検索</string>
+
+    <string name="search_hint">YouTubeを検索</string>
+
+    <string name="code_hint">codeを貼り付けてください</string>
+    <string name="code_apply">codeを適用</string>
+</resources>

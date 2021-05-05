@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_view_account"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title="@string/action_view_account"
+        app:showAsAction="ifRoom"/>
+</menu>
