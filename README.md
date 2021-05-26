@@ -1,6 +1,6 @@
 # YouTubeClone
 
-This application records user actions such as scroll depth and query length, analyzes the parameters with a classifier, and reflects them in the related video display by adding the videos or filtering the list.
+This application records user actions such as scroll depth and query length, analyzes the parameters with a classifier, and reflects them in the related video display by adding the videos or filtering the list. This application is used in thesis published on [this page](https://hosobe.cis.k.hosei.ac.jp/lab/wp-content/uploads/2021/04/t_ide-bthesis-abstract.pdf).
 
 # Authorized by OAuth 2.0
 
