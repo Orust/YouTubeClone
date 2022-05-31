@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Classifier extends Application {
-    private String API_KEY = "AIzaSyBSuEsG_TQQLr3x-8FFOqYYaFCL9cfHDgQ";
-    private String API_KEY2 = "AIzaSyBJzBeThXgz_cExqCmeYstTA76_uw8RuAQ";
-    //private String API_KEY3 = "AIzaSyB4GVmXhvgtj6YAoYBXwFhSu6LLXKKNbJc";
+    private String API_KEY = "API Key1";
+    private String API_KEY2 = "API Key2";
+    //private String API_KEY3 = "API Key3";
 
     private int query_length;
     private int reading_time;
@@ -30,7 +30,8 @@ public class Classifier extends Application {
     private String code;
     private Boolean authorized = false;
 
-    private String[] names = {"小西", "須貝", "中村", "池田", "遠藤", "笹森", "照井", "原田", "深山", "松尾", "森田", "井出"};
+    // add participants
+    private String[] names = {"p1", "p2"};
     private Map<String, Participant> name;
 
 
@@ -73,29 +74,6 @@ public class Classifier extends Application {
         for (int i = 0; i < names.length; i++) {
             name.put(names[i], participants.get(i));
         }
-        /*
-        name.put("小西", p1);
-        name.put("須貝", p2);
-
-         */
-
-        /*
-        participants = new HashMap<>();
-
-        participants.put("小西", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("須貝", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("中村", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("池田", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("井出", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("遠藤", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("笹森", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("照井", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("原田", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("深山", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("松尾", new ArrayList<Integer>(Arrays.asList(1, 2)));
-        participants.put("森田", new ArrayList<Integer>(Arrays.asList(1, 2)));
-
-         */
 
     }
 
