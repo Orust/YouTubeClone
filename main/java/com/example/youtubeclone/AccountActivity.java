@@ -58,9 +58,7 @@ public class AccountActivity extends AppCompatActivity{
             + "https://www.googleapis.com/auth/youtubepartner%20";
 
     private String[] key_list = {
-            "AIzaSyBSuEsG_TQQLr3x-8FFOqYYaFCL9cfHDgQ",
-            "AIzaSyBJzBeThXgz_cExqCmeYstTA76_uw8RuAQ",
-            "AIzaSyB4GVmXhvgtj6YAoYBXwFhSu6LLXKKNbJc"
+            //  add some key for quota
     };
     private int index = 0;
 
