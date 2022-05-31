@@ -46,7 +46,6 @@ import java.util.concurrent.TimeUnit;
 
 public class VideoPlayActivity extends YouTubeBaseActivity {
 
-    //private static final String API_KEY = "AIzaSyB4GVmXhvgtj6YAoYBXwFhSu6LLXKKNbJc";
     private Context context;
     private File file;
     private String filename = "data1.txt";
