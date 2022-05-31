@@ -61,7 +61,6 @@ import java.util.List;
 
 public class SearchResultsActivity extends AppCompatActivity {
 
-    //private final String API_KEY = "AIzaSyB4GVmXhvgtj6YAoYBXwFhSu6LLXKKNbJc";
     ArrayList<VideoDetails> videoDetailsArrayList;
     MyCustomAdapter myCustomAdapter;
 
