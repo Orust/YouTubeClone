@@ -1,0 +1,62 @@
+# Android/Gradle Build Files
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+
+# Local configuration files
+local.properties
+gradle.properties
+
+# IDE Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.launch
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log Files
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# Compiled Classes
+*.class
+
+# Sensitive Data & Credentials
+*.properties
+.env
+.env.local
+.env.*.local
+credentials.json
+*.keystore
+*.key
+*.pem
+
+# Documentation (stashed changes)
+CLAUDE.md
