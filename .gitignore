@@ -57,6 +57,3 @@ credentials.json
 *.keystore
 *.key
 *.pem
-
-# Documentation (stashed changes)
-CLAUDE.md
